@@ -311,6 +311,136 @@ class FormBuilder {
 		return $this->input('url', $name, $value, $options);
 	}
 
+    /**
+	 * Create a color input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function color($name, $value = null, $options = array())
+	{
+		return $this->input('color', $name, $value, $options);
+	}
+
+    /**
+	 * Create a date input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function date($name, $value = null, $options = array())
+	{
+		return $this->input('date', $name, $value, $options);
+	}
+
+    /**
+	 * Create a datetime input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function datetime($name, $value = null, $options = array())
+	{
+		return $this->input('datetime', $name, $value, $options);
+	}
+
+    /**
+	 * Create a datetime-local input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function datetimeLocal($name, $value = null, $options = array())
+	{
+		return $this->input('datetime-local', $name, $value, $options);
+	}
+
+    /**
+	 * Create a time input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function time($name, $value = null, $options = array())
+	{
+		return $this->input('time', $name, $value, $options);
+	}
+
+    /**
+	 * Create a week input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function week($name, $value = null, $options = array())
+	{
+		return $this->input('week', $name, $value, $options);
+	}
+
+    /**
+	 * Create a month input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function month($name, $value = null, $options = array())
+	{
+		return $this->input('month', $name, $value, $options);
+	}
+
+    /**
+	 * Create a number input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function number($name, $value = null, $options = array())
+	{
+		return $this->input('number', $name, $value, $options);
+	}
+
+    /**
+	 * Create a range input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function range($name, $value = null, $options = array())
+	{
+		return $this->input('range', $name, $value, $options);
+	}
+
+    /**
+	 * Create a tel input field.
+	 *
+	 * @param  string  $name
+	 * @param  string  $value
+	 * @param  array   $options
+	 * @return string
+	 */
+	public function tel($name, $value = null, $options = array())
+	{
+		return $this->input('tel', $name, $value, $options);
+	}
+
 	/**
 	 * Create a file input field.
 	 *
